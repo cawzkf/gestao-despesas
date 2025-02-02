@@ -10,14 +10,12 @@ export default {
         './resources/views/**/*.blade.php',
         './resources/**/*.js',
         './resources/**/*.vue',
-        'node_modules/preline/dist/*.js',
-
     ],
     theme: {
         extend: {
             colors: {
                 dark: {
-                    background: '#000000', // Fundo preto puro
+                    background: '#D1D5DB', // Fundo preto puro
                     text: '#FFFFFF', // Texto branco puro
                     card: '#1A1A1A', // Fundo dos cartões (cinza escuro)
                     accent: '#4F46E5', // Cor de destaque (azul para contraste)
@@ -28,7 +26,4 @@ export default {
             },
         },
     },
-    plugins: [
-        require('preline/plugin'),
-    ],
 };
